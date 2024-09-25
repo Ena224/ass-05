@@ -3,12 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Donation Page</title>
+    <link rel="icon" href="assets/donate.png" type="image/x-icon">
+
+    <title>Save Bangladesh</title>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
       rel="stylesheet"
       type="text/css"
     />
+
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
       .active-btn {
@@ -19,8 +22,7 @@
   <body>
     <header>
       <nav
-        class="flex flex-col justify-between sticky top-0 bg-white shadow z-10 p-4"
-      >
+        class="flex flex-col justify-between sticky top-0 bg-white shadow z-10 p-4">
         <div class="flex justify-between items-center">
           <div>
             <button class="border-2 p-3 bg-[#B4F461] font-bold rounded-lg">
@@ -40,19 +42,17 @@
         <div class="flex justify-center space-x-4 mt-4">
           <button
             id="show-donation-form"
-            class="border-2 p-3 font-bold rounded-lg"
-          >
+            class="border-2 p-3 font-bold rounded-lg">
             Donation
           </button>
           <button
             id="show-history-form"
-            class="border-2 p-3 font-bold rounded-lg"
-          >
+            class="border-2 p-3 font-bold rounded-lg">
             History
           </button>
         </div>
       </nav>
-      <!-- donation form start -->
+      <!--  Donation form start -->
       <div id="add-donation-form" class="">
         <!-- div container 1 -->
         <div
@@ -134,14 +134,9 @@
                 towards making a real difference. Please consider donating today
                 to assist those in urgent need.
               </p>
-              <input
-                id="donatation-amount-2"
+              <input id="donatation-amount-2"
                 class="mt-3 border w-full p-2 rounded-xl"
-                type="text"
-                name=""
-                id=""
-                placeholder="Write Donation Amount"
-              />
+                type="text" placeholder="Write Donation Amount"/>
             </div>
             <button
               id="submit-donation-2"
